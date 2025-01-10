@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* shared style */
+.button-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: 600;
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 20px;
+    box-shadow: 0px 10px 10px rgb(145, 144, 144);
+
+
+}
+.bg-color1{
+    background-color: rgba(198, 228, 214, 1);
+}
+.bg-color2{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.bg-color3{
+    background-color: rgba(198, 228, 214, 1);
+}
+.bg-color4{
+    background-color: rgba(247, 235, 207, 1);
+}
+
+
+.text-color1{
+    color: rgba(14, 14, 14, 1);
+}
+.text-color2{
+    color: rgba(14, 14, 14, 0.5);
+}
+/* shared style end */
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* header style start */
+header{
+    width: 1280px;
+    margin: 0 auto;
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: 600;
+}
+.nav-container{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+    padding: 100px 80px 100px 80px;
+    border-radius: 24px;
+    
+    
+}
+
+.banner-title{
+    font-size: 24;
+    font-weight: 500;
+}
+
+.banner-title2{
+    font-size: 56px;
+    font-weight: 700;
+}
+/* The vision of Futere */
+menu{
+    width: 1280px;
+    margin: 0 auto;
+}
+.vision-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.vision-subtitle{
+    font-size: 16;
+    font-weight: 400;
+}
+
+.vision-subcontainer{
+    margin: 32px 0px 32px 0px;
+    display: flex;
+    gap: 24px;
+    
+}
+ .vision{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 24px;
+    padding: 30px;
+} 
+.vision img{
+    width: 64px;
+}
+.vision-subcontainer-title{
+    color:  rgba(14, 14, 14, 1);
+    font-size: 20px;
+    font-weight: 700;
+}
+.vision-subcontainer-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.5);
+}
